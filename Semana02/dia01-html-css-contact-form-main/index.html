@@ -13,41 +13,50 @@
   
   <h1>Contact Us</h1>
     <form>
-  
-   <label>  
 
-    First Name
-    <input type="text">
-    <span>This field is required</span>
+      <div class="row">
 
-   </label>
+      <label>  
 
-    <label>
+       First Name
+       <input type="text">
+       <span>This field is required</span>
 
-    Last Name
-    <input type="text">
-    <span>This field is required</span>
+      </label>
+
+      <label>
+
+       Last Name
+       <input type="text">
+       <span>This field is required</span>
     
-    </label>
-
+       </label>
+        
+      </div>
+  
+   
     <label>
 
     Email Address
-    <input type="text">
+    <input type="email">
     <span>This field is required</span>
 
     </label>
     
-       <label>
-        <input type="radio" />
+    <div class="row options">
+
+      <label>
+        <input type="radio" name="options"/>
         Query Type
       </label>
 
       <label>
-        <input type="radio" />
+        <input type="radio" name="options"/>
         Support Request
       </label>
 
+    </div>
+       
       <label>
         Message
         <textarea rows="5"></textarea>
@@ -57,6 +66,9 @@
       <label>
         <input type="checkbox" />
         I consent to being contacted by the team
+      </label>
+
+      <input type="submit">
 
     </form>
    </main>

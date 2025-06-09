@@ -32,9 +32,9 @@ body{
 
 }
 
-.contact-form form{
-    /*border: 1px solid red;*/
-}
+/*.contact-form form{
+    /*border: 1px solid red;
+}*/
 
 .contact-form label{
     /*border:1px solid blue ;*/
@@ -57,4 +57,41 @@ label textarea{
 
 label span {
   display: none;
+}
+
+.row{
+    display: flex;
+    gap: 16px;
+}
+
+.options label{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px;
+    border: hsl(186, 15%, 59%);
+    width: 100%;
+    margin: 0;
+    padding: 16px 0;
+    border-radius: 8px;
+}
+
+input[type=radio]{
+        margin: 0;
+}
+
+input[type=submit]{
+    background-color: hsl(169, 82%, 27%);
+    width:100%;
+    color: white;
+    border-radius: 8px;
+    padding: 16px;
+    font-weight: 700;
+    letter-spacing:1px ;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: hsl(187, 24%, 22%);
 }
